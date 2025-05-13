@@ -1,84 +1,87 @@
+
 <!DOCTYPE html>
-<html lang="ru">
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.5" />
-  <title>Контактная информация</title>
+  <meta charset="UTF-8">
+  <title>Контакты Манучехра Собирова</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background-color: #f0f8ff;
-      color: #333;
+      font-family: sans-serif;
       text-align: center;
-      padding: 20px;
+      margin-top: 50px;
+      background-image: url('https://masterpiecer-images.s3.yandex.net/bd0ac09589cc11ee86dc1e5d9776cfa6:upscaled');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      color: white;
     }
-    h1 {
-      font-size: 36px;
-      margin-bottom: 30px;
+    .contact-icon {
+      width: 100px;
+      margin: 10px;
+      transition: transform 0.2s;
     }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 30px;
-      justify-items: center;
+    .contact-icon:hover {
+      transform: scale(1.1);
     }
-    .icon {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      font-size: 24px;
-      color: #333;
-      text-decoration: none;
-    }
-    .icon img {
-      width: 120px;
-      height: 120px;
-      margin-bottom: 10px;
-    }
-    .contact {
-      font-size: 24px;
+    .contact-info {
       margin-top: 20px;
+      background: rgba(0, 0, 0, 0.6);
+      padding: 10px;
+      border-radius: 10px;
+      display: inline-block;
     }
-    .link {
-      color: #1e90ff;
+    a {
+      color: #00ffff;
       text-decoration: none;
+    }
+    .icon-label {
+      display: block;
+      margin-top: 5px;
+      font-weight: bold;
     }
   </style>
 </head>
 <body>
-  <h1>Контактная информация Манучехра Собирова</h1>
+  <h1>Контакты Манучехра Собирова</h1>
   
-  <div class="grid">
-    <a href="https://translate.google.com" class="icon">
-      <img src="https://img.icons8.com/emoji/100/google-translate-emoji.png" alt="Переводчик">
-      Перевод
-    </a>
-    <a href="https://www.youtube.com" class="icon">
-      <img src="https://img.icons8.com/emoji/100/youtube-emoji.png" alt="YouTube">
-      YouTube
-    </a>
-    <a href="https://www.duolingo.com" class="icon">
-      <img src="https://img.icons8.com/emoji/100/owl.png" alt="Duolingo">
-      Учить слова
-    </a>
-    <a href="https://www.kids-games.com" class="icon">
-      <img src="https://img.icons8.com/emoji/100/video-game.png" alt="Игры">
-      Игры
-    </a>
+  <div class="contact-info">
+    <p><strong>Телефоны:</strong></p>
+    <p>+992557930550</p>
+    <p>+992918694788</p>
+    <p><strong>Email:</strong> <a href="mailto:manuchehrs2005@gmail.com">manuchehrs2005@gmail.com</a></p>
   </div>
 
-  <div class="contact">
-    <p><strong>Телефон (1):</strong> <a href="tel:+992557930550" class="link">+992557930550</a></p>
-    <p><strong>Телефон (2):</strong> <a href="tel:+992918694788" class="link">+992918694788</a></p>
-    <p><strong>Email:</strong> <a href="mailto:manuchehrs2005@gmail.com" class="link">manuchehrs2005@gmail.com</a></p>
-    <p><strong>Instagram:</strong> <a href="https://www.instagram.com/the_sobirovm?igsh=MW9hYzBxcDRmM21zOQ==" class="link" target="_blank">the_sobirovm</a></p>
-    <p><strong>Telegram:</strong> <a href="https://t.me/msobirovm" class="link" target="_blank">t.me/msobirovm</a></p>
-    <p><strong>WhatsApp:</strong> <a href="https://wa.me/qr/7XKCML26YU6VB1" class="link" target="_blank">WhatsApp</a></p>
+  <div class="contact-info">
+    <p><strong>Контакты родителей:</strong></p>
+    <p>Дадем: +992007447752</p>
+    <p>Бием: +992918217935</p>
   </div>
 
-  <div class="map">
-    <h2>Местоположение</h2>
-    <iframe src="https://www.google.com/maps?q=38.531419,68.787968&z=15&output=embed" allowfullscreen></iframe>
-  </div>
+  <p>Нажмите на иконку для перехода:</p>
+
+  <!-- Instagram -->
+  <a href="https://www.instagram.com/the_sobirovm?igsh=MW9hYzBxcDRmM21zOQ==" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" class="contact-icon">
+    <span class="icon-label">Instagram</span>
+  </a>
+
+  <!-- Telegram (обновлённая иконка) -->
+  <a href="https://t.me/msobirovm" target="_blank">
+    <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="Telegram" class="contact-icon">
+    <span class="icon-label">Telegram</span>
+  </a>
+
+  <!-- WhatsApp -->
+  <a href="https://wa.me/qr/7XKCML26YU6VB1" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="contact-icon">
+    <span class="icon-label">WhatsApp</span>
+  </a>
+
+  <!-- Карта (обновлённая иконка) -->
+  <a href="https://www.google.com/maps?q=38.531419,68.787968" target="_blank">
+    <img src="https://cdn-icons-png.flaticon.com/512/684/684908.png" alt="Google Maps" class="contact-icon">
+    <span class="icon-label">Карта</span>
+  </a>
+
 </body>
 </html>
